@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景色  前两位00完全透明，ff 表示完全不透明 -->
+    <solid android:color="@color/white" />
+
+    <!-- 边框宽度与颜色 -->
+    <stroke
+            android:width="1dp"
+            android:color="#ccc" />
+
+    <!--<padding-->
+            <!--android:bottom="2dp"-->
+            <!--android:left="2dp"-->
+            <!--android:right="2dp"-->
+            <!--android:top="2dp" />-->
+
+    <!-- 大小 -->
+    <!--<size-->
+    <!--android:width="50dp"-->
+    <!--android:height="50dp" />-->
+
+    <corners android:radius="2dp" />
+
+</shape>

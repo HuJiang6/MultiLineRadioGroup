@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MultiLineRadioGroup</string>
+
+    <string-array name="childValuesHx">
+        <item>500以下</item>
+        <item>500–1000</item>
+        <item>1000–5000</item>
+        <item>5000–1亿</item>
+        <item>1亿以上</item>
+    </string-array>
+</resources>
