@@ -54,7 +54,7 @@ public class MultiLineRadioGroup extends ViewGroup implements View.OnClickListen
         childMarginVertical = arr.getDimensionPixelSize(
                 R.styleable.MultiLineRadioGroup_child_margin_vertical, 5);
         childResId = arr.getResourceId(
-                R.styleable.MultiLineRadioGroup_child_layout, 0);
+                R.styleable.MultiLineRadioGroup_child_layout, R.layout.child_single_choose);
         childCount = arr.getInt(R.styleable.MultiLineRadioGroup_child_count, 0);
         singleChoice = arr.getBoolean(
                 R.styleable.MultiLineRadioGroup_single_choice, true);
@@ -119,7 +119,6 @@ public class MultiLineRadioGroup extends ViewGroup implements View.OnClickListen
                 int w = v.getMeasuredWidth() + childMarginHorizontal * 2
                         + flagX + getPaddingLeft() + getPaddingRight();
                 if (w > getMeasuredWidth()) {
-//                    flagY++;
                     flagX = 0;
                 }
                 sheight = v.getMeasuredHeight();
@@ -403,7 +402,7 @@ public class MultiLineRadioGroup extends ViewGroup implements View.OnClickListen
     }
 
     public interface OnCheckedChangedListener {
-        public void onItemChecked(MultiLineRadioGroup group, int position,
-                                  boolean checked);
+        void onItemChecked(MultiLineRadioGroup group, int position,
+                           boolean checked);
     }
 }

@@ -8,12 +8,24 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- MultiLineRadioGroup样式 -->
+    <!-- MultiLineRadioGroup样式  单选 -->
     <style name="MultiLineRadioGroupStyle">
         <item name="android:background">@color/white</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="child_layout">@layout/child_house_rental_gd</item>
+        <item name="child_margin_horizontal">6.0dip</item>
+        <item name="child_margin_vertical">6.0dip</item>
+        <item name="child_gravity">1</item>
+        <item name="mlrg_line_num">4</item>
+        <item name="single_choice">true</item>
+    </style>
+
+    <!-- MultiLineRadioGroup样式  多选 -->
+    <style name="MultiRadioGroupStyle">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="child_layout">@layout/child_multi_choose</item>
         <item name="child_margin_horizontal">6.0dip</item>
         <item name="child_margin_vertical">6.0dip</item>
         <item name="child_gravity">1</item>

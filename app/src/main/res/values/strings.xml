@@ -8,4 +8,12 @@
         <item>5000–1亿</item>
         <item>1亿以上</item>
     </string-array>
+
+    <string-array name="childValuesHx1">
+        <item>500以下</item>
+        <item>500–100024323432</item>
+        <item>1000–5000232342</item>
+        <item>5000–1亿</item>
+        <item>1亿以上</item>
+    </string-array>
 </resources>

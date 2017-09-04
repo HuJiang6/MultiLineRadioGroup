@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_item_blue"
+        android:padding="8.0dip"
+        android:lines="2"
+        android:textColor="@color/colorAccent"
+        android:button="@null"
+        android:gravity="center"
+        android:textSize="14sp"
+        >
+
+</CheckBox>

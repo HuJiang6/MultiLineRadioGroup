@@ -9,9 +9,9 @@
 
     <com.lhj.multilineradiogroup.MultiLineRadioGroup
             android:id="@+id/mlrg"
-            style="@style/MultiLineRadioGroupStyle"
+            style="@style/MultiRadioGroupStyle"
             app:child_count="5"
-            app:child_values="@array/childValuesHx"
+            app:child_values="@array/childValuesHx1"
             app:single_choice="false"
             />
 
